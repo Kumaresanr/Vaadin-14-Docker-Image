@@ -1,0 +1,7 @@
+FROM openjdk:14-jdk-alpine
+
+# FROM openjdk:13-jdk-alpine
+# FROM openjdk:12-jdk-alpine
+# FROM openjdk:8-jdk-alpine
+
+RUN apk --no-cache add nodejs npm curl
