@@ -6,7 +6,7 @@ For installing Node.js, the [frontend-maven-plugin](https://github.com/eirslett/
 
 ## .gitlab-ci.yml Example
 
-The described example just shows the build stage. The build app uses Vaadin 14 and Spring Boot. As a build automation tool, Maven is used.
+The example is an excerpt from the .gitlab-ci.yml and just shows the build stage. The build app uses Vaadin 14 and Spring Boot. As a build automation tool, Maven is used.
 
 ```yml
 image: seifertfelix/vaadin14:14-jdk-alpine
